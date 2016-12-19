@@ -2,6 +2,10 @@
     font-family: Noticia regular;
 }
 
+.hotline {
+    padding-bottom: 3px;
+}
+
 .hotline span {
     font-size: 12px;
 }
@@ -28,6 +32,7 @@
     border: none;
     font-family: Arial;
     font-size: 12px;
+    outline: none;
 }
 
 .txtsearch form .searchbtn {
@@ -39,6 +44,7 @@
 
 .container.info {
     border-bottom: 1px dashed black;
+    padding: 10px 0px 0px 0px;
 }
 
 .banner {
@@ -47,7 +53,7 @@
 }
 
 .banner img {
-    width: 400px;
+    height: 76px;
 }
 
 .menu ul li {
@@ -68,6 +74,8 @@
 .menu ul {
     text-align: center;
     padding: 0px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .menu ul li ul {
