@@ -1,5 +1,8 @@
-.hotline span {
+* {
     font-family: Noticia regular;
+}
+
+.hotline span {
     font-size: 12px;
 }
 
@@ -93,19 +96,19 @@
 
 .intro {
     text-align: center;
-    font-family: Noticia regular;
     font-size: 14px;
     padding-top: 20px;
 }
 
 .emailfrom {
     text-align: center;
+    padding: 10px 0px 0px 0px;
 }
 
 .email-input {
     border: 1px solid #d7d9dd;
     font-size: 14px;
-    width: 200px;
+    width: 300px;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -118,8 +121,6 @@
     border-radius: 5px;
     height: 34px;
     min-width: 70px;
-    font-family: Noticia regular;
-
 }
 
 .submenu {
@@ -136,11 +137,12 @@
 
 .submenu a {
     text-decoration: none;
-    color: #7b7d7f;
+    color: black;
+    font-family: 'Courier New';
 }
 
 .submenu a:hover {
-    color: #7b7d7f;
+    color: black;
     text-decoration: none;
 }
 
