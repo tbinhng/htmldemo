@@ -1,58 +1,73 @@
-.hotline span{
+.hotline span {
     font-family: Noticia regular;
     font-size: 12px;
 }
-.hotline a{
+
+.hotline a {
     font-weight: 800;
     font-size: 16px;
     color: cadetblue;
 }
-.hotline a:hover, .hotline a:focus{
+
+.hotline a:hover,
+.hotline a:focus {
     font-weight: 800;
     font-size: 16px;
     color: cadetblue;
     text-decoration: none;
 }
-.txtsearch{
+
+.txtsearch {
     text-align: right;
 }
-.txtsearch form .searchtxt{
+
+.txtsearch form .searchtxt {
     border: none;
     font-family: Arial;
     font-size: 12px;
 }
-.txtsearch form .searchbtn{
-    background:url("../image/img/icon-search.png") no-repeat;
+
+.txtsearch form .searchbtn {
+    background: url("../image/img/icon-search.png") no-repeat;
     border: none;
     width: 10px;
     height: 10px;
 }
-.container.info{
+
+.container.info {
     border-bottom: 1px dashed black;
 }
-.banner{
+
+.banner {
     text-align: center;
     padding: 10px 0;
 }
-.banner img{
+
+.banner img {
     width: 400px;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
     padding: 0 20px;
     font-style: italic;
     position: relative;
 }
-.menu ul li a{
+
+.menu ul li a {
     color: black;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     text-decoration: none;
 }
-.menu ul{
-    text-align: center; 
+
+.menu ul {
+    text-align: center;
+    padding: 0px;
 }
-.menu ul li ul{
+
+.menu ul li ul {
     display: none;
     position: absolute;
     border: 1px solid black;
@@ -61,11 +76,75 @@
     text-align: left;
     width: 200px;
 }
-.menu ul li ul li{
+
+.menu ul li ul li {
     display: block;
     text-align: left;
     padding: 0 5px;
 }
-.menu ul li:hover ul{
+
+.menu ul li:hover ul {
     display: block;
+}
+
+.slider {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-family: Noticia regular;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.emailfrom {
+    text-align: center;
+}
+
+.email-input {
+    border: 1px solid #d7d9dd;
+    font-size: 14px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.email-submit {
+    background: #e5e5e5;
+    color: #999999;
+    font-size: 18px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    height: 34px;
+    min-width: 70px;
+    font-family: Noticia regular;
+
+}
+
+.submenu {
+    padding: 10px;
+}
+
+.submenu ul {
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #d7d9dd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #7b7d7f;
+}
+
+.submenu a:hover {
+    color: #7b7d7f;
+    text-decoration: none;
+}
+
+.submenu ul li {
+    display: inline;
+    padding: 0px 50px;
 }
