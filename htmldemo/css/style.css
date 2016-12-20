@@ -1,5 +1,5 @@
 * {
-    font-family: Noticia regular;
+    font-family: 'Taviraj', serif;
 }
 
 .hotline span {
@@ -138,7 +138,6 @@
 .submenu a {
     text-decoration: none;
     color: black;
-    font-family: 'Courier New';
 }
 
 .submenu a:hover {
@@ -152,8 +151,14 @@
 }
 
 .product-catalog-title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
+    border-bottom: 1px double;
+}
+
+.product-catalog-title a {
+    font-family: roboto;
+    color: black;
 }
 
 .product-list {
@@ -173,6 +178,10 @@
 }
 
 .product-item:hover .quickview-button {
+    opacity: 0.7;
+}
+
+.product-item:hover .quickview-button:hover {
     opacity: 1;
 }
 
@@ -201,6 +210,12 @@
     text-align: center;
 }
 
+.product-name a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
 .product-name a:hover {
     text-decoration: none;
 }
@@ -216,6 +231,7 @@
     font-weight: 300;
     color: #333745;
     text-decoration: line-through;
+    font-family: roboto;
 }
 
 .product-price .pricebox .price-new {
@@ -223,6 +239,7 @@
     line-height: 1.2em;
     font-weight: 700;
     color: #f82e56;
+    font-family: roboto;
 }
 
 .product-title-detail {
@@ -253,4 +270,37 @@
 
 .btn.add-to-cart span {
     padding: 0 10px;
+}
+
+.product-notavailable {
+    position: absolute;
+    top: 150px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text {
+    display: inline-block;
+    padding: 1.236em 2em;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #333745;
+    text-transform: uppercase;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.vert {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-item-not-available>span {
+    background: rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 }
