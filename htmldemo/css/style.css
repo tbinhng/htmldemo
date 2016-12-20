@@ -1,53 +1,90 @@
+@media (max-width: 768px) {
+    .info {
+        border-bottom: 2px solid #eee;
+    }
+    .hotline a {
+        display: block;
+        padding: 3.5px 9px;
+        background: #688884;
+        color: #FFF;
+        text-align: center;
+        margin: 10px 5px;
+        border-radius: 6px;
+    }
+    .hotline {
+        text-align: center;
+        font-size: 12px;
+    }
+    .txtsearch {
+        width: 100%;
+        text-align: center;
+    }
+    .txtsearch form .searchtxt {
+        border: 1px solid #ddd;
+        font-family: Arial;
+        font-size: 12px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .fa {
+        visibility: hidden;
+    }
+    .banner img {
+        width: 250px;
+    }
+    .hotline a:hover,
+    .hotlin a:focus {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.info {
+        border-bottom: 1px dashed black;
+    }
+    .hotline a {
+        font-weight: 800;
+        font-size: 16px;
+        color: cadetblue;
+    }
+    .hotline span {
+        font-size: 12px;
+    }
+    .hotline a:hover,
+    .hotline a:focus {
+        font-weight: 800;
+        font-size: 16px;
+        color: cadetblue;
+        text-decoration: none;
+    }
+    .txtsearch {
+        text-align: right;
+    }
+    .txtsearch form .searchtxt {
+        border: none;
+        font-family: Arial;
+        font-size: 12px;
+    }
+    .txtsearch form .searchbtn {
+        background: url("../image/img/icon-search.png") no-repeat;
+        border: none;
+        width: 10px;
+        height: 10px;
+    }
+    .banner img {
+        width: 400px;
+        text-align: center;
+    }
+}
+
 * {
     font-family: 'Taviraj', serif;
-}
-
-.hotline span {
-    font-size: 12px;
-}
-
-.hotline a {
-    font-weight: 800;
-    font-size: 16px;
-    color: cadetblue;
-}
-
-.hotline a:hover,
-.hotline a:focus {
-    font-weight: 800;
-    font-size: 16px;
-    color: cadetblue;
-    text-decoration: none;
-}
-
-.txtsearch {
-    text-align: right;
-}
-
-.txtsearch form .searchtxt {
-    border: none;
-    font-family: Arial;
-    font-size: 12px;
-}
-
-.txtsearch form .searchbtn {
-    background: url("../image/img/icon-search.png") no-repeat;
-    border: none;
-    width: 10px;
-    height: 10px;
-}
-
-.container.info {
-    border-bottom: 1px dashed black;
 }
 
 .banner {
     text-align: center;
     padding: 10px 0;
-}
-
-.banner img {
-    width: 400px;
 }
 
 .menu ul li {
