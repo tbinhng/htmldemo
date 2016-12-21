@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Taviraj" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 
@@ -23,7 +25,8 @@
                     <div class="txtsearch">
                         <form>
                             <span><input type="text" placeholder="Tìm kiếm" class="searchtxt"></span>
-                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <button class="fa fa-search"> </button>
+                            <!--<i class="fa fa-search" aria-hidden="true"></i>-->
                             <!--<input type="submit" class="searchbtn" value="">-->
                         </form>
                     </div>
@@ -76,115 +79,118 @@
             </div>
         </div>-->
         <div class="container catalog">
-            <div class="row">
-                <!--<div class="col-md-12 product-catalog-title">
-                    Sản phẩm mới nhất
-                </div>-->
-                <div class="row product-list">
-                    <div class="col-md-3 product-item">
-                        <div class="sale">
-                            <span class="sale-percent">-20%</span>
-                        </div>
-                        <img src="./image/product-16-c2.jpg" alt="">
-                        <a href="#" class="quickview-button">
-                                Xem Chi Tiết
-                            </a>
-
-                        <div class="product-title-detail">
-                            <div class="product-name">
-                                <a href="#">LONG SLEEVE OVERALL</a>
-                            </div>
-                            <div class="product-price">
-                                <span class="pricebox">
-                                        <span class="price-old">$199.00</span>
-                                <span class="price-new">$99.00</span>
-                                </span>
-                            </div>
-
-                            <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
-                        </div>
-                    </div>
-                    <div class="col-md-3 product-item">
-                        <div class="sale">
-                            <span class="sale-percent">-20%</span>
-                        </div>
-                        <img src="./image/product-25.jpg" alt="">
-                        <a href="#" class="quickview-button">
-                                Xem Chi Tiết
-                            </a>
-
-                        <div class="product-title-detail">
-                            <div class="product-name">
-                                <a href="#">LONG SLEEVE OVERALL</a>
-                            </div>
-                            <div class="product-price">
-                                <span class="pricebox">
-                                        <span class="price-old">$199.00</span>
-                                <span class="price-new">$99.00</span>
-                                </span>
-                            </div>
-
-                            <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
-                        </div>
-                    </div>
-                    <div class="col-md-3 product-item">
-                        <div class="sale">
-                            <span class="sale-percent">-20%</span>
-                        </div>
-                        <img src="./image/product-20.jpg" alt="">
-                        <a href="#" class="quickview-button">
-                                Xem Chi Tiết
-                            </a>
-
-                        <div class="product-title-detail">
-                            <div class="product-name">
-                                <a href="#">LONG SLEEVE OVERALL</a>
-                            </div>
-                            <div class="product-price">
-                                <span class="pricebox">
-                                        <span class="price-old">$199.00</span>
-                                <span class="price-new">$99.00</span>
-                                </span>
-                            </div>
-
-                            <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
-                        </div>
-                    </div>
-                    <div class="col-md-3 product-item">
-                        <div class="sale">
-                            <span class="sale-percent">-20%</span>
-                        </div>
-                        <img src="./image/product-10.jpg" alt="">
-                        <a href="#" class="quickview-button">
-                                Xem Chi Tiết
-                            </a>
-
-                        <div class="product-title-detail">
-                            <div class="product-name">
-                                <a href="#">LONG SLEEVE OVERALL</a>
-                            </div>
-                            <div class="product-price">
-                                <span class="pricebox">
-                                        <span class="price-old">$199.00</span>
-                                <span class="price-new">$99.00</span>
-                                </span>
-                            </div>
-
-                            <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row product-list">
-                <div class="col-md-3 product-item">
+            <ul class="row product-list">
+                <li class="col-md-3 product-item">
                     <div class="sale">
                         <span class="sale-percent">-20%</span>
                     </div>
+                    <img src="./image/product-16-c2.jpg" alt="">
+                    <a href="#" class="quickview-button">
+                                Xem Chi Tiết
+                            </a>
+
+                    <div class="product-title-detail">
+                        <div class="product-name">
+                            <a href="#">LONG SLEEVE OVERALL</a>
+                        </div>
+                        <div class="product-price">
+                            <span class="pricebox">
+                                        <span class="price-old">$199.00</span>
+                            <span class="price-new">$99.00</span>
+                            </span>
+                        </div>
+
+                        <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
+                    </div>
+                </li>
+                <li class="col-md-3 product-item">
+                    <div class="sale">
+                        <span class="sale-percent">-20%</span>
+                    </div>
+                    <img src="./image/product-25.jpg" alt="">
+                    <a href="#" class="quickview-button">
+                                Xem Chi Tiết
+                            </a>
+
+                    <div class="product-title-detail">
+                        <div class="product-name">
+                            <a href="#">LONG SLEEVE OVERALL</a>
+                        </div>
+                        <div class="product-price">
+                            <span class="pricebox">
+                                        <span class="price-old">$199.00</span>
+                            <span class="price-new">$99.00</span>
+                            </span>
+                        </div>
+
+                        <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
+                    </div>
+                </li>
+                <li class="col-md-3 product-item">
+                    <div class="sale">
+                        <span class="sale-percent">-20%</span>
+                    </div>
+                    <img src="./image/product-20.jpg" alt="">
+                    <a href="#" class="quickview-button">
+                                Xem Chi Tiết
+                            </a>
+
+                    <div class="product-title-detail">
+                        <div class="product-name">
+                            <a href="#">LONG SLEEVE OVERALL</a>
+                        </div>
+                        <div class="product-price">
+                            <span class="pricebox">
+                                        <span class="price-old">$199.00</span>
+                            <span class="price-new">$99.00</span>
+                            </span>
+                        </div>
+
+                        <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
+                    </div>
+                </li>
+                <li class="col-md-3 product-item">
+                    <div class="sale">
+                        <span class="sale-percent">-20%</span>
+                    </div>
+                    <img src="./image/product-10.jpg" alt="">
+                    <a href="#" class="quickview-button" data-toggle="modal" data-target=".bd-example-modal-sm">
+                                Xem Chi Tiết
+                            </a>
+                    <div class="product-title-detail">
+                        <div class="product-name">
+                            <a href="#">LONG SLEEVE OVERALL2</a>
+                        </div>
+                        <div class="product-price">
+                            <span class="pricebox">
+                                        <span class="price-old">$199.00</span>
+                            <span class="price-new">$99.00</span>
+                            </span>
+                        </div>
+
+                        <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
+                    </div>
+                </li>
+
+                <li class="col-md-3 product-item">
+                    <div class="notavailable">
+                        <span>Hết Hàng</span>
+                    </div>
                     <img src="./image/product-17.jpg" alt="">
-                    <span class="product-notavailable">
+                    <a href="#" class="quickview-button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                                Xem Chi Tiết
+                            </a>
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <iframe src="product-detail.html"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<span class="product-notavailable">
                         <span class="vert">
                             <span class="text">Not Available</span>
-                    </span>
+                    </span>-->
                     </span>
                     <div class="product-title-detail">
                         <div class="product-name">
@@ -196,31 +202,36 @@
                             <span class="price-new">$99.00</span>
                             </span>
                         </div>
-                        <button class="btn add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
+                        <button class="btn add-to-cart" disabled><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Đặt Hàng</span></button>
                     </div>
-                </div>
-            </div>
-            <div class="intro">
-                Theo dõi Thông Tin
-            </div>
-            <div class="emailfrom">
-                <form action="#" method="get" accept-charset="utf-8">
-                    <input type="text" placeholder="Nhập Email" class="email-input">
-                    <input type="submit" name="" value="Gửi" class="email-submit">
-                </form>
-            </div>
-            <div class="submenu">
-                <ul>
-                    <li><a href="#">QUY ĐỊNH & THANH TOÁN</a></li>
-                    <li><a href="#">HỢP TÁC PHÂN PHỐI</a></li>
-                    <li><a href="#">TUYỂN DỤNG</a></li>
-                    <li><a href="#">LIÊN HỆ</a></li>
-                </ul>
+                </li>
+            </ul>
+        </div>
 
-            </div>
+
+        <div class="intro">
+            Theo dõi Thông Tin
+        </div>
+        <div class="emailfrom">
+            <form action="#" method="get" accept-charset="utf-8">
+                <input type="text" placeholder="Nhập Email" class="email-input">
+                <input type="submit" name="" value="Gửi" class="email-submit">
+            </form>
+        </div>
+        <div class="submenu">
+            <ul>
+                <li><a href="#">QUY ĐỊNH & THANH TOÁN</a></li>
+                <li><a href="#">HỢP TÁC PHÂN PHỐI</a></li>
+                <li><a href="#">TUYỂN DỤNG</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+
         </div>
     </div>
+    </div>
     <!--abc-->
+
+
 </body>
 
 </html>
