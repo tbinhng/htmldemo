@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Header extends React.Component {
    render() {
       return (
          <header>
+            <Link to="admin">Admin</Link>
             <div className="container info">
                 <div className="row">
                     <div className="col-md-8 hotline">
